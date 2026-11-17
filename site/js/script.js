@@ -1,4 +1,4 @@
-
+-----Código está incompleto falta más alguns ajustes e correções---------
 document.addEventListener("DOMContentLoaded", () => {
     const campoPesquisa = document.querySelector('.pesquisa input[type="search"]');
     const formularioPesquisa = document.querySelector(".pesquisa");
