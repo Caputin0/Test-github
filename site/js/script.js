@@ -1,4 +1,3 @@
-// Doppio Mocha — funcionalidades básicas da página inicial
 
 document.addEventListener("DOMContentLoaded", () => {
     const campoPesquisa = document.querySelector('.pesquisa input[type="search"]');
@@ -10,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let carrinho = [];
 
-    // Pesquisa: filtra os cards pelo nome, categoria e descrição.
+ 
     function filtrarProdutos() {
         const termo = campoPesquisa.value.trim().toLocaleLowerCase("pt-BR");
 
@@ -27,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("produtos").scrollIntoView({ behavior: "smooth" });
     });
 
-    // Adiciona os produtos ao carrinho e atualiza a quantidade.
+   
     botoesComprar.forEach((botao) => {
         botao.addEventListener("click", () => {
             const card = botao.closest(".produto");
@@ -48,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Ao clicar no carrinho, mostra os itens adicionados e o total.
+
     linkCarrinho.addEventListener("click", (evento) => {
         evento.preventDefault();
 
