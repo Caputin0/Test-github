@@ -1,0 +1,50 @@
+Doppio_Mocha/
+├── README.md
+└── site
+    ├── CHANGELOG.md
+    ├── ORGANOGRAMA_PASTAS_E_PAGINAS.png
+    ├── ORGANOGRAMA_PASTAS_E_PAGINAS.txt
+    ├── README.md
+    ├── auth
+    │   ├── autenticar.php
+    │   ├── cadastrar.php
+    │   └── sair.php
+    ├── config
+    │   ├── conexao.php
+    │   └── sessao.php
+    ├── css
+    │   └── code.css
+    ├── database
+    │   └── doppio_mocha.sql
+    ├── docs
+    │   ├── banco-de-dados.md
+    │   ├── instalacao.md
+    │   ├── manual-do-usuario.md
+    │   ├── requisitos.md
+    │   ├── revisao-entrega-10-sprints.md
+    │   └── telas-e-fluxos.md
+    ├── html
+    │   ├── cadastro.php
+    │   ├── carrinho.php
+    │   ├── detalhes_produto.php
+    │   ├── index.php
+    │   ├── login.php
+    │   ├── pagamento.php
+    │   ├── painel.php
+    │   ├── produtos.php
+    │   └── style.css
+    ├── imagens
+    │   ├── cafe.png
+    │   ├── logo.png
+    │   ├── mouse.png
+    │   └── teclado-redragon.png
+    ├── includes
+    │   ├── cabecalho.php
+    │   ├── funcoes.php
+    │   └── rodape.php
+    ├── js
+    │   ├── script.js
+    │   ├── tema.js
+    │   └── validacao.js
+    └── pedidos
+        └── finalizar.php
